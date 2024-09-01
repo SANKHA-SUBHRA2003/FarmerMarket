@@ -99,19 +99,6 @@ class EKisanLoginPage extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(height: 16),
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, '/signup');
-                      },
-                      child: Text(
-                        "Don't have an account? Create now",
-                        style: TextStyle(
-                          color: Colors.blue, // Link color
-                          decoration: TextDecoration.underline,
-                        ),
-                      ),
-                    ),
                   ],
                 ),
               ),

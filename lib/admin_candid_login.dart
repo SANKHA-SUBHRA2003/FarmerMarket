@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'sellerlogin.dart'; // Ensure this import is present
+import 'buyerlogin.dart';
+import 'sellerlogin.dart';
+import 'sellernewlogin.dart'; // Ensure this import is present
 
 void main() {
   runApp(MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => EKisanLoginPage(),
-        '/buyer': (context) => BuyerPage(),
+        '/buyer': (context) => BuyerLoginPage(),
         '/seller': (context) => SellerLoginPage(), // Route to SellerLoginPage
       },
     );

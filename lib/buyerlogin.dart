@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'buyernewlogin.dart';
 
-class SellerLoginPage extends StatelessWidget {
+class BuyerLoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

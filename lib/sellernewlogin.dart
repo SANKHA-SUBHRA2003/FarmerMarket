@@ -13,12 +13,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.yellow,
         scaffoldBackgroundColor: Color(0xFFFFF7E4), // Background color
       ),
-      home: SellerLoginPage(),
+      home: SellerLoginPage1(),
     );
   }
 }
 
-class SellerLoginPage extends StatelessWidget {
+class SellerLoginPage1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
